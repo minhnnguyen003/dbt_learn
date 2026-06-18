@@ -1,4 +1,4 @@
-Welcome to your new dbt project!
+This repository is a personal pet project for learning dbt through a simple e-commerce analytics workflow. It includes seed data, staging models, intermediate calculations, and marts to practice dbt modeling, testing, and documentation.
 
 ### Setup
 
