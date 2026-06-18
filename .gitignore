@@ -1,0 +1,21 @@
+
+# dbt artifacts
+target/
+dbt_packages/
+dbt_internal_packages/
+
+# logs
+logs/
+
+# Python environment and cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
