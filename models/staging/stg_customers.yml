@@ -1,0 +1,15 @@
+version: 2
+
+models:
+  - name: stg_customers
+    description: Cleaned customer information
+
+    columns:
+      - name: customer_id
+        description: Primary key
+
+      - name: customer_name
+        description: Full name
+
+      - name: email
+        description: Customer email

@@ -5,15 +5,23 @@ models:
 
     columns:
       - name: order_id
+        description: Primary key of order
         tests:
           - unique
           - not_null
 
+
       - name: customer_id
+        description: Customer placing the order
         tests:
           - not_null
 
+
+      - name: total_amount
+        description: Order amount
+
       - name: status
+        description: Status of the order
         data_tests:
           - accepted_values:
               arguments:
